@@ -18,12 +18,10 @@ namespace DominosApi.RestModels.Responses
 
     public class PreconfiguredProduct
     {
-        public int? SortQeq { get; private set; }
         public string Code { get; private set; }
-        public string Tags { get; private set; }
-        public string ReferenceProductCode { get; private set; }
-        public string PreconfiguredProductOptions { get; private set; }
+
         public string Name { get; private set; }
+
         public string Description { get; private set; }
     }
 }
